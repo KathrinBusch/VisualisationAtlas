@@ -1,0 +1,33 @@
+<html lang="" >
+      <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>GEOMAR Visualisation Atlas</title>
+        <link rel="stylesheet" href="css/styling.css" />
+        <link rel="stylesheet" href="https://use.typekit.net/gtb4isg.css">     
+      </head>
+<body>
+    <div class="navbar">       
+        <div class="dropdown">
+          <button class="dropbtn"><img class="menupic" src="visuals/index.png" alt=""><i class="fa fa-caret-down"></i></button>
+          <div class="dropdown-content"><a href="overview_talks.html">Overview</a></div>
+        </div>
+   </div>	
+<div class="container">	 
+ <div class="align"><hr> </div>
+ <div class="align"><h1 id="05-visualizing-glodap-three-different-routes">Visualizing GLODAP – Three different routes</h1> </div>
+ <div class="align"><h2 id="description-nico-lange-chemical-oceanographer-phd-student-"><p style="color: #bcbcbc;" </p>Nico Lange, Chemical Oceanographer (PhD-student)</h2> </div>
+ <div style="text-align: center;"><figure><img src="visuals/05.png" alt="" width="100%"><figcaption><div class="align"><p> <p style="color: #bcbcbc;font-size: 12px" </p>by Siv K. Lauvset, taken from Frontiers article “A vision for FAIR ocean data products”, Tanhua et al., 2021 (<a href="https://doi.org/10.1038/s43247-021-00209-4">https://doi.org/10.1038/s43247-021-00209-4</a>)</a></p></figcaption></figure></div> </div>
+ <div class="align"><h2 id="what-does-the-graphic-show-">What does the graphic show?:</h2> </div>
+ <div class="align"><p>The figure illustrates the anthropogenic carbon (Cant) concentrations normalized to the year 2002. Subplot a) shows the concentrations along a global section as indicated by the black line in subplot b). Subplot b) further shows the global Cant column inventory. The data used for the figure is taken from the mapped climatology of GLODAPv2 (GLobal Ocean Data Analysis Project, <a href="http://www.glodap.info" style="font-size: 20px" >www.glodap.info</a>), which has been created using high-quality and bias-corrected hydrographic cruise data and gridding it using DIVA.</p> </div>
+ <div class="align"><h2 id="personal-perspective-">Personal perspective:</h2> </div>
+ <div class="align"><p>The figure shown directly relates to GLODAP’s scientific rationale to help to determine the interior ocean’s capacity to store Cant. Very few calculation steps are needed to produce the figure as all data are already provided in a gridded format through GLODAP’s mapped climatology.</p> </div>
+ <div class="align"><h2 id="how-was-this-visualization-created-">How was this visualization created?:</h2> </div>
+ <div class="align"><p>1.      Download GLODAPv2 Mapped Climatology (netcdf files)</p> </div>
+ <div class="align"><p>2.      Calculate Cant inventory (integrate over layer depth; Matlab)</p> </div>
+ <div class="align"><p>3.      Create section(s) and global overview map (contourf.m; m_map; Matlab)</p> </div>
+ <div class="align"><h2 id="link-to-lecture-video-">Lecture video:</h2> </div>
+ <div class="align"><p>Click on video to play.</p> </div>
+ <div class="align"><video width="80%"controls autoplay><source src="videos/05.mp4" type="video/mp4" ></video> </div>
+</body>
+</html>
